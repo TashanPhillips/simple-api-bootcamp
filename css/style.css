@@ -1,0 +1,75 @@
+body {
+    background-image: url(img/dictionary.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+h1 {
+    font-size: 3rem;
+    display: flex;
+    justify-content: center;
+    color: white;
+    text-decoration: underline;
+    text-decoration-color: blue;
+}
+
+.inputBox {
+    display: flex;
+    justify-content: center;
+}
+
+/* .dropDown {
+    display: flex;
+    flex-wrap: wrap;
+} */
+    
+
+input {
+    margin: .5%;
+    height: 43px;
+    width: 30%;
+    padding: 1% 1% 0% 1%;
+    border-radius: 5%;
+}
+
+
+
+input::placeholder {
+    color: blue;
+    font-size: 2rem;
+}
+
+select {
+    margin: .5%;
+    height: 60px;
+    width: 10%;
+    font-size: 1.5rem;
+    color: blue;
+    /* background-color: blue; */
+}
+
+input, textarea {
+    font-size: 2rem;
+    color: blue;
+}
+
+button {
+    margin: .5%;
+    background-color: blue;
+    color: white;
+    width: 15%;
+    border: groove 1rem white;
+    border-radius: 1rem;
+
+}
+
+#definition {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+}
